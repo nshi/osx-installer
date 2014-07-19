@@ -99,7 +99,7 @@ RUN cd /mpkg/boot2dockeriso.pkg && \
 RUN cd /mpkg/boot2dockerapp.pkg && \
     mkdir ./rootfs && \
     cd ./rootfs && \
-    mv /mpkg/boot2docker.app . && \
+    mv /mpkg/VoltDB\ Demo.app . && \
     find . | cpio -o --format odc | gzip -c > ../Payload && \
     mkbom . ../Bom && \
     sed -i \
