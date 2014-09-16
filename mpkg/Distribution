@@ -3,7 +3,7 @@
     <title>docker_title</title>
     <options customize="allow" allow-external-scripts="yes" rootVolumeOnly="true" hostArchitectures="i386"/>
     <domains enable_anywhere="false" enable_currentUserHome="false" enable_localSystem="true"/>
-    <background file="boot2docker.png" alignment="bottomleft" scaling="none"/>
+    <background file="logo.png" alignment="bottomleft" scaling="none"/>
     <welcome file="Welcome.html" mime-type="text/html"/>
     <conclusion file="Installed.html" mime-type="text/html"/>
     <choices-outline>
